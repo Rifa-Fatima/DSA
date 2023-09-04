@@ -7,8 +7,8 @@ average = sum(l)/len(l)
 print(f'The average temperature is : {average}')
 count = 0
 for i in l:
-    if i > average:
+    if int(i) > average:
         count +=1
-print(f'{count} day(s) are above temperature.')
+print(f'{count} day(s) are above average temperature.')
     
 
